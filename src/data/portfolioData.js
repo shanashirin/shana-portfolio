@@ -20,7 +20,7 @@ export const portfolioData = {
       "I am continuously learning new technologies, improving my technical abilities, and exploring innovative ways to combine AI with software engineering. My goal is to build impactful applications, grow as a software and AI engineer, and contribute to meaningful technology projects."
     ],
     social: {
-      github: "https://github.com",
+      github: "https://github.com/shanashirin",
       linkedin: "https://linkedin.com",
       twitter: "https://x.com",
       email: "mailto:shanashirinpulikkal@gmail.com"
