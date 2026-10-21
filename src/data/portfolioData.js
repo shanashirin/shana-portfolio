@@ -16,7 +16,7 @@ export const portfolioData = {
     bio: [
       "Hi, I'm Shana Shirin, an MCA graduate passionate about Software Development, Artificial Intelligence, Machine Learning, and Data Analytics. I enjoy building practical, technology-driven solutions that solve real-world problems and transform ideas into functional applications.",
       "My experience includes developing machine learning prediction systems, AI-powered analytics dashboards, web applications, and deep learning solutions. Through my projects, I have explored Python, Flask, React, machine learning, deep learning, data visualization, and database management.",
-      "I have worked on projects ranging from personalized travel planning and credit risk prediction to stroke risk assessment, business intelligence, and retinal image-based cardiovascular risk analysis. These experiences have strengthened my problem-solving, analytical thinking, and application development skills.",
+      "I have worked on projects ranging from personalized travel planning and credit risk prediction to stroke risk assessment, business intelligence, retinal image-based cardiovascular risk analysis, and industrial predictive maintenance systems. These experiences have strengthened my problem-solving, analytical thinking, and application development skills.",
       "I am continuously learning new technologies, improving my technical abilities, and exploring innovative ways to combine AI with software engineering. My goal is to build impactful applications, grow as a software and AI engineer, and contribute to meaningful technology projects."
     ],
     social: {
@@ -29,7 +29,7 @@ export const portfolioData = {
   },
 
   stats: [
-    { label: "Featured Projects", value: "5+", count: 5, suffix: "+" },
+    { label: "Featured Projects", value: "6+", count: 6, suffix: "+" },
     { label: "Core Domains", value: "3", count: 3, suffix: "" },
     { label: "Degree & Specialization", value: "MCA", count: 1, suffix: "" },
     { label: "Tech Masteries", value: "15+", count: 15, suffix: "+" }
@@ -196,6 +196,25 @@ export const portfolioData = {
         "3-tier classification: Low, Medium, and High cardiovascular risk levels"
       ],
       metrics: "Novel multi-modal approach bridging computer vision with clinical inputs",
+      github: "https://github.com",
+      demo: "https://example.com"
+    },
+    {
+      id: "predictiq",
+      title: "PredictIQ — Predictive Maintenance System",
+      category: "AI & Machine Learning",
+      subtitle: "Industrial Intelligence & Real-Time Equipment Health Monitoring",
+      description: "An AI-powered predictive maintenance platform that monitors industrial equipment in real time, detects anomalies, and predicts failures before they occur. The system leverages machine learning to analyze sensor telemetry and surface actionable maintenance insights.",
+      imageGradient: "linear-gradient(135deg, #07111f 0%, #0c2340 50%, #0e3a5c 100%)",
+      accentColor: "#38bdf8",
+      tags: ["Python", "Machine Learning", "Scikit-learn", "Flask", "React", "Real-Time Analytics", "IoT Sensors"],
+      features: [
+        "Real-time sensor telemetry ingestion with anomaly detection algorithms",
+        "Machine learning failure prediction models with confidence scoring",
+        "Interactive monitoring dashboard with live equipment health indicators",
+        "Automated alert system for maintenance scheduling and fault prevention"
+      ],
+      metrics: "Proactive failure detection reducing unplanned downtime in industrial environments",
       github: "https://github.com",
       demo: "https://example.com"
     }
