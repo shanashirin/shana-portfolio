@@ -7,7 +7,7 @@ export function Projects({ projects }) {
   const [activeCategory, setActiveCategory] = useState('All');
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const categories = ['All', 'AI & Machine Learning', 'Full Stack & AI', 'Deep Learning & CV', 'Web Development'];
+  const categories = ['All', 'AI & Machine Learning', 'Full Stack & AI', 'Deep Learning & CV', 'Web Development', 'Data Analytics'];
 
   const filteredProjects =
     activeCategory === 'All'

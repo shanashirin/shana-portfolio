@@ -29,10 +29,10 @@ export const portfolioData = {
   },
 
   stats: [
-    { label: "Featured Projects", value: "6+", count: 6, suffix: "+" },
+    { label: "Featured Projects", value: "7+", count: 7, suffix: "+" },
     { label: "Core Domains", value: "3", count: 3, suffix: "" },
     { label: "Degree & Specialization", value: "MCA", count: 1, suffix: "" },
-    { label: "Tech Masteries", value: "15+", count: 15, suffix: "+" }
+    { label: "Tech Masteries", value: "22+", count: 22, suffix: "+" }
   ],
 
   services: [
@@ -67,7 +67,7 @@ export const portfolioData = {
   ],
 
   skills: {
-    categories: ["All", "Programming", "AI & Machine Learning", "Web Development", "Databases"],
+    categories: ["All", "Programming", "AI & Machine Learning", "Web Development", "Databases", "Tools & Platforms", "No-Code & AI Tools"],
     list: [
       // Programming
       { name: "Python", category: "Programming", level: 95, icon: "Terminal" },
@@ -82,6 +82,7 @@ export const portfolioData = {
       { name: "Pandas & NumPy", category: "AI & Machine Learning", level: 94, icon: "Database" },
       { name: "Data Visualization", category: "AI & Machine Learning", level: 92, icon: "Palette" },
       { name: "OpenCV / Computer Vision", category: "AI & Machine Learning", level: 84, icon: "Eye" },
+      { name: "Agentic AI", category: "AI & Machine Learning", level: 82, icon: "Cpu" },
 
       // Web Development
       { name: "React", category: "Web Development", level: 90, icon: "Atom" },
@@ -92,7 +93,18 @@ export const portfolioData = {
 
       // Databases
       { name: "MongoDB", category: "Databases", level: 88, icon: "Database" },
-      { name: "SQLite", category: "Databases", level: 90, icon: "Database" }
+      { name: "SQLite", category: "Databases", level: 90, icon: "Database" },
+
+      // Tools & Platforms
+      { name: "Microsoft Excel", category: "Tools & Platforms", level: 90, icon: "FileCode2" },
+      { name: "Power BI", category: "Tools & Platforms", level: 88, icon: "BarChart2" },
+      { name: "Make (Integromat)", category: "Tools & Platforms", level: 80, icon: "Zap" },
+      { name: "Dialogflow", category: "Tools & Platforms", level: 78, icon: "MessageSquare" },
+
+      // No-Code & AI Tools
+      { name: "Teachable AI", category: "No-Code & AI Tools", level: 82, icon: "GraduationCap" },
+      { name: "PictoBlox", category: "No-Code & AI Tools", level: 80, icon: "Blocks" },
+      { name: "Dify", category: "No-Code & AI Tools", level: 78, icon: "Sparkles" }
     ]
   },
 
@@ -215,6 +227,25 @@ export const portfolioData = {
         "Automated alert system for maintenance scheduling and fault prevention"
       ],
       metrics: "Proactive failure detection reducing unplanned downtime in industrial environments",
+      github: "https://github.com",
+      demo: "https://example.com"
+    },
+    {
+      id: "meta-powerbi",
+      title: "Meta Ad Performance Dashboard",
+      category: "Data Analytics",
+      subtitle: "Interactive Power BI Dashboard for Meta Advertising Analytics",
+      description: "A comprehensive Power BI dashboard that tracks and visualises Meta (Facebook & Instagram) advertising campaign performance across impressions, clicks, conversions, budget allocation, and audience demographics. Built to surface real-time insights for data-driven ad optimisation.",
+      imageGradient: "linear-gradient(135deg, #0a1628 0%, #1877F2 60%, #0866ff 100%)",
+      accentColor: "#1877F2",
+      tags: ["Power BI", "DAX", "Data Analytics", "Meta Ads", "Business Intelligence", "Data Visualisation"],
+      features: [
+        "KPI cards for Impressions (42.1K), CTR (11.75%), Conversion Rate (4.87%), and $2.5M Total Budget",
+        "Demographic breakdowns by Gender, Age group, and Country with interactive map visuals",
+        "Weekly & Hourly impression trend charts with dynamic measure selector",
+        "Campaign-level filtering by Campaign Name, Ad Type, and Target Interest with calendar heat-map"
+      ],
+      metrics: "End-to-end Meta ad analytics across multiple campaigns, ad types, and audience segments",
       github: "https://github.com",
       demo: "https://example.com"
     }

@@ -100,38 +100,6 @@ export function Skills({ skills }) {
                   >
                     {skill.name}
                   </span>
-                  <span
-                    style={{
-                      fontSize: '0.85rem',
-                      fontFamily: 'monospace',
-                      fontWeight: 700,
-                      color: 'var(--text-accent)'
-                    }}
-                  >
-                    {skill.level}%
-                  </span>
-                </div>
-
-                {/* Progress Meter Bar */}
-                <div
-                  style={{
-                    width: '100%',
-                    height: '6px',
-                    borderRadius: '999px',
-                    background: 'rgba(255, 255, 255, 0.08)',
-                    overflow: 'hidden',
-                    marginBottom: '0.75rem'
-                  }}
-                >
-                  <div
-                    style={{
-                      width: `${skill.level}%`,
-                      height: '100%',
-                      background: 'var(--gradient-primary)',
-                      borderRadius: '999px',
-                      transition: 'width 0.8s cubic-bezier(0.4, 0, 0.2, 1)'
-                    }}
-                  />
                 </div>
               </div>
 
